@@ -10,14 +10,22 @@
 
 // 1. Initialize Firebase
   // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAcT4-IZCnPx70mvlThfLIh0RopFdXWG_A",
-    authDomain: "timesheet-logic-6eb88.firebaseapp.com",
-    databaseURL: "https://timesheet-logic-6eb88.firebaseio.com",
-    storageBucket: "timesheet-logic-6eb88.appspot.com",
-    messagingSenderId: "366789605295"
-  };
-  firebase.initializeApp(config);
+  // var config = {
+  //   apiKey: "AIzaSyAcT4-IZCnPx70mvlThfLIh0RopFdXWG_A",
+  //   authDomain: "timesheet-logic-6eb88.firebaseapp.com",
+  //   databaseURL: "https://timesheet-logic-6eb88.firebaseio.com",
+  //   storageBucket: "timesheet-logic-6eb88.appspot.com",
+  //   messagingSenderId: "366789605295"
+  // };
+var config = {
+apiKey: "AIzaSyBvm8et9pJb0qISJuo4LQ1PGce1yxqlTt8",
+authDomain: "interface-test-project.firebaseapp.com",
+databaseURL: "https://interface-test-project.firebaseio.com",
+storageBucket: "interface-test-project.appspot.com",
+messagingSenderId: "113658919972"
+};
+
+firebase.initializeApp(config);
 
 
 var database = firebase.database();

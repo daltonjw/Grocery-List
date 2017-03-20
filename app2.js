@@ -69,7 +69,9 @@ $(document.body).on("click", ".checkbox", function() {
   // Get the itemNumber of the button from its data attribute.
   var itemName = $(this).attr("id");
   // console.log(this);
-  console.log(database.ref());
+  console.log(database.ref(itemName));
+  console.log(itemName);
   // console.log(rootRef.child(itemName));
+  database.ref(itemName).remove();
 });
 

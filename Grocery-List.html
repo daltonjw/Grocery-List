@@ -5,6 +5,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Grocery List App!</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- jQuery -->
     <!-- <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -16,20 +18,24 @@
 
   <body>
     <!-- Title -->
-    <h1>Current Grocery List</h1>
-    <!-- Input Form -->
-    <form>
-      <h2>Item: 
-        <input id="gocery-item-input" type="text">
-        <input id="add-item-button" value="Add Item" type="submit">
-      </h2>
-    </form>
-    <hr>
-    <!-- Grocery list items show up here -->
-    <div id="grocery-list-div"></div>
-    
-    <!-- Link to js file containing app functionality -->
-    <script src="app2.js"></script>
+    <div id="nav-wrapper">
+      <h1>Current Grocery List</h1>
+      <!-- Input Form -->
+      <form>
+        <h2>Item: 
+          <input id="gocery-item-input" type="text">
+          <input id="add-item-button" value="Add Item" type="submit">
+        </h2>
+      </form>
+    </div>
+      <hr>
+    <div id="body-wrapper">  
+      <!-- Grocery list items show up here -->
+      <div id="grocery-list-div"></div>
+    </div>
+      
+      <!-- Link to js file containing app functionality -->
+      <script src="app2.js"></script>
   </body>
 
 </html>

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 #nav-wrapper{
     width: 90%;
     margin: 0 auto;
@@ -7,3 +11,30 @@
 	width: 90%;
 	margin: 0 auto;
 }
+
+p, button {
+	font-size: 20px;
+	line-height: 20px;
+	/*border: solid;*/
+}
+
+button {
+	/*width:50%;*/
+}
+
+h1{
+	float: auto;
+	/*font-size: 5em;*/
+	text-size-adjust: auto;
+
+}
+
+#grocery-item-input{
+	/*width:30%;*/
+
+}
+
+#add-item-button{
+	width:30%;
+}
+

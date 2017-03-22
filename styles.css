@@ -4,7 +4,8 @@
 
 #nav-wrapper{
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
 }
 
 #body-wrapper{
@@ -31,10 +32,15 @@ h1{
 
 #grocery-item-input{
 	/*width:30%;*/
+	display:block;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
 
 }
 
 #add-item-button{
 	width:30%;
+	display: block;
+	margin:auto;
 }
 

@@ -21,7 +21,7 @@
 		font-size: 7vw;
 		/*line-height: 20px;*/
 		/*border: solid;*/
-		border-radius: 10px;
+		border-radius: 5px;
 
 	}
 
@@ -31,7 +31,8 @@
 
 	h1{
 		float: auto;
-		font-size: 9vw;
+		font-size: 12vw;
+		margin-bottom: 1%;
 
 	}
 
@@ -41,7 +42,7 @@
 		width:100%;
 		display:block;
 		/*margin-top: 25px;*/
-		margin-bottom: 25px;
+		margin-bottom: 5%;
 		border: none;
 		border-bottom: solid 2px #c9c9c9;
 		transition: border 0.3s;
@@ -60,7 +61,7 @@
 		display:block;
 		padding-top: 5px;
 		padding-bottom: 5px;
-		margin-bottom: 15px;
+		margin-bottom: 5%;
 		font-size: 7vw;
 		text-align: center;
 		/*line-height: 20px;*/

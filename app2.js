@@ -20,13 +20,13 @@ $("#add-item-button").on("click", function(event) {
   // Prevent Form from Refreshing
   event.preventDefault();
   // Get the input values from the html
-  var localGroceryItem = $("#gocery-item-input").val().trim();
+  var localGroceryItem = $("#grocery-item-input").val().trim();
   //log values for testing purposes
   console.log(localGroceryItem);
   //Push localGroceryItem as value to firebase with timestamp as key
   database.ref().push().set(localGroceryItem);
   //Empty the html
-  $("#gocery-item-input").val("");
+  $("#grocery-item-input").val("");
 });
 
 
